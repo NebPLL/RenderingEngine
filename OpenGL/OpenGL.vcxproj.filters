@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Quelldateien\Engine">
+      <UniqueIdentifier>{37c38b8d-6570-4ecb-9ccf-635ab2f1f573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine\gui">
+      <UniqueIdentifier>{8ff7f3ac-6936-4447-9ee5-5f84974f90c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine\util">
+      <UniqueIdentifier>{c65fdc05-6c54-458f-819b-9d8005987ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine\gui\Ui">
+      <UniqueIdentifier>{75a20ea3-e764-48fb-abb9-b11bb705455f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Engine\gui\render">
+      <UniqueIdentifier>{a2005802-ab05-43b1-9c74-6a266dae65e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>Quelldateien\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Quelldateien\Engine\gui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -36,6 +57,12 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="dependencies\include\KHR\khrplatform.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
